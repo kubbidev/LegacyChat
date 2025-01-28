@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "me.kubbidev.legacychat.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

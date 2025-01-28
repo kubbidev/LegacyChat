@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "legacychat",
+  "version": "${version}",
+  "name": "LegacyChat",
+  "icon": "assets/legacychat/icon.png",
+  "description": "A mod that hides all things related to chat signing.",
+  "authors": [
+    "kubbidev"
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "contact": {
+    "issues": "https://gitlab.com/kubbidev/legacychat/-/issues"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.kubbidev.legacychat.LegacyChatMod"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "legacychat.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "minecraft": "~1.21.4"
+  }
+}
