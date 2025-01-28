@@ -2,7 +2,9 @@
   "required": true,
   "package": "me.kubbidev.legacychat.mixins",
   "compatibilityLevel": "JAVA_21",
-  "client": [],
+  "client": [
+    "ToastManagerMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
