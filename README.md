@@ -1,9 +1,9 @@
-# LegacyChat
+# LegacyChat (1.21.4)
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=for-the-badge)](https://github.com/RichardLitt/standard-readme)
 [![discord-banner](https://img.shields.io/discord/1258062506270654515?label=discord&style=for-the-badge&color=7289da)](https://discord.kubbidev.me)
 
-LegacyChat is a mod that hides all things related to **chat signing**.
+LegacyChat is a **Minecraft 1.21.4 mod** that hides all things related to **chat signing**.
 
 It is:
 
@@ -27,8 +27,8 @@ LegacyChat uses Gradle to handle dependencies & building.
 #### Compiling from source
 
 ```sh
-git clone https://gitlab.com/kubbidev/legacychat.git
-cd legacychat/
+git clone https://github.com/kubbidev/LegacyChat.git
+cd LegacyChat/
 ./gradlew build
 ```
 

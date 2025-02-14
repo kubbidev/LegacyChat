@@ -78,8 +78,8 @@ publishing {
             from(components["java"])
             pom {
                 name = "LegacyChat"
-                description = "A mod that hides all things related to chat signing."
-                url = "https://gitlab.com/kubbidev/legacychat"
+                description = "A Minecraft mod that hides all things related to chat signing."
+                url = "https://github.com/kubbidev/LegacyChat"
 
                 licenses {
                     license {
@@ -97,8 +97,8 @@ publishing {
                 }
 
                 issueManagement {
-                    system = "Gitlab"
-                    url = "https://gitlab.com/kubbidev/legacychat/-/issues"
+                    system = "GitHub"
+                    url = "https://github.com/kubbidev/LegacyChat/issues"
                 }
             }
         }

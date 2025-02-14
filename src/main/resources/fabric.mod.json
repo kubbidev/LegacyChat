@@ -4,13 +4,13 @@
   "version": "${version}",
   "name": "LegacyChat",
   "icon": "assets/legacychat/icon.png",
-  "description": "A mod that hides all things related to chat signing.",
+  "description": "A Minecraft mod that hides all things related to chat signing.",
   "authors": [
     "kubbidev"
   ],
   "license": "CC BY-NC-SA 4.0",
   "contact": {
-    "issues": "https://gitlab.com/kubbidev/legacychat/-/issues"
+    "issues": "https://github.com/kubbidev/LegacyChat/issues"
   },
   "environment": "client",
   "entrypoints": {
