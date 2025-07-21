@@ -14,6 +14,7 @@ import java.util.Optional;
 
 @Environment(EnvType.CLIENT)
 public final class LegacyChatMod implements ClientModInitializer {
+
     public static final String MOD_ID = "legacychat";
 
     /**
