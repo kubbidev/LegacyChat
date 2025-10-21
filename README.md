@@ -1,9 +1,9 @@
-# LegacyChat (1.21.8)
+# LegacyChat (1.21.10)
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=for-the-badge)](https://github.com/RichardLitt/standard-readme)
 [![discord-banner](https://img.shields.io/discord/1258062506270654515?label=discord&style=for-the-badge&color=7289da)](https://discord.kubbidev.me)
 
-LegacyChat is a **Minecraft 1.21.8 mod** that hides all things related to **chat signing**.
+LegacyChat is a **Minecraft 1.21.10 mod** that hides all things related to **chat signing**.
 
 It is:
 

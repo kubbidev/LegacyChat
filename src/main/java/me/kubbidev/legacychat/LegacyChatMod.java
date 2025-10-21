@@ -35,7 +35,7 @@ public final class LegacyChatMod implements ClientModInitializer {
     // provide adapters
 
     public Instant getStartTime() {
-        return this.startTime;
+        return startTime;
     }
 
     // lifecycle
@@ -49,13 +49,13 @@ public final class LegacyChatMod implements ClientModInitializer {
 
     private void onClientStarted(MinecraftClient client) {
         this.client = client;
-        this.startTime = Instant.now();
+        startTime = Instant.now();
 
         // register the mumble link provider
         LegacyChatModProvider.register(this);
 
         // successfully print the time taken when loading the mod!
-        Duration timeTaken = Duration.between(this.getStartTime(), Instant.now());
+        Duration timeTaken = Duration.between(getStartTime(), Instant.now());
         LOGGER.info("Successfully enabled. (took {}ms)", timeTaken.toMillis());
     }
 
@@ -72,6 +72,6 @@ public final class LegacyChatMod implements ClientModInitializer {
     // MinecraftClient singleton getter
 
     public Optional<MinecraftClient> getClient() {
-        return Optional.ofNullable(this.client);
+        return Optional.ofNullable(client);
     }
 }
