@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "legacychat",
-  "version": "${version}",
+  "version": "${modVersion}",
   "name": "LegacyChat",
   "icon": "assets/legacychat/icon.png",
   "description": "A Minecraft mod that hides all things related to chat signing.",

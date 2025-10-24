@@ -50,9 +50,8 @@ tasks.withType<JavaCompile> {
 }
 
 tasks.processResources {
-    inputs.property("version", "$version")
-    filesMatching("**/fabric.mod.json") {
-        expand("version" to "$version")
+    filesMatching("fabric.mod.json") {
+        expand("modVersion" to "$version")
     }
 }
 
@@ -79,10 +78,6 @@ val remappedShadowJar by tasks.registering(RemapJarTask::class) {
     archiveFileName = "LegacyChat-Fabric-$version.jar"
 }
 
-tasks.assemble {
-    dependsOn(remappedShadowJar)
-}
-
 tasks.publish {
     dependsOn(tasks.shadowJar)
 }
@@ -103,6 +98,10 @@ tasks.withType<Test>().configureEach {
     testLogging {
         events = setOf(TestLogEvent.PASSED, TestLogEvent.FAILED, TestLogEvent.SKIPPED)
     }
+}
+
+tasks.assemble {
+    dependsOn(remappedShadowJar)
 }
 
 publishing {
