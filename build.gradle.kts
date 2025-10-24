@@ -57,6 +57,7 @@ tasks.processResources {
 }
 
 tasks.shadowJar {
+    duplicatesStrategy = DuplicatesStrategy.FAIL
     archiveFileName = "legacychat-$version-dev.jar"
     mergeServiceFiles()
     dependencies {
