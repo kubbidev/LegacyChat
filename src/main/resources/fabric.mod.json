@@ -14,9 +14,6 @@
   },
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "me.kubbidev.legacychat.LegacyChatMod"
-    ]
   },
   "mixins": [
     {
